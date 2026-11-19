@@ -1,0 +1,153 @@
+{
+  "execucao": "2026-11-19 13:34:31",
+  "config": {
+    "SEED": 42,
+    "N_BASE": 10000,
+    "N_EVAL": 1000,
+    "FRAC_ORIG_TESTE": 0.5,
+    "EMB_MODEL": "BAAI/bge-base-en-v1.5",
+    "LLM_MODEL": "Qwen/Qwen3-8B",
+    "TOP_K": 5,
+    "POOL": 50,
+    "RRF_K": 60,
+    "ALPHA_HIB": 0.5,
+    "CALIBRAR": true,
+    "N_CAL": 60,
+    "MAX_CHARS_EMB": 2000,
+    "MAX_CHARS_LLM": 900,
+    "JUDGE_BS": 4,
+    "PROMPT_VERSION": "v1"
+  },
+  "amostra": {
+    "base": 10000,
+    "base_duplicadas": 5000,
+    "teste": 1000,
+    "teste_duplicadas": 500,
+    "teste_duplicadas_por_local_da_original": {
+      "teste": 250,
+      "base": 250
+    },
+    "base_apos_simulacao": 11000
+  },
+  "limiares": {
+    "llm": 0.5,
+    "bm25": 0.14975286437889074,
+    "denso": 0.8176472783088684,
+    "hibrido_lin": 0.4916984478215518
+  },
+  "acuracia_na_calibracao": {
+    "llm": 0.7666666666666667,
+    "bm25": 0.6333333333333333,
+    "denso": 0.6833333333333333,
+    "hibrido_lin": 0.7
+  },
+  "sistemas": [
+    {
+      "Sistema": "Híbrido + LLM juiz",
+      "Limiar": 0.5,
+      "VP": 308,
+      "VN": 400,
+      "FP": 100,
+      "FN": 192,
+      "Acurácia": 0.708,
+      "IC95% acc.": "[0.68, 0.73]",
+      "Precisão": 0.7549019607843137,
+      "Recall": 0.616,
+      "F1 (dup.)": 0.6784140969162996,
+      "AUC": 0.767882,
+      "AP": 0.769907650899724,
+      "Aponta p/ original certa": 0.448
+    },
+    {
+      "Sistema": "BM25 (léxico)",
+      "Limiar": 0.15,
+      "VP": 270,
+      "VN": 272,
+      "FP": 228,
+      "FN": 230,
+      "Acurácia": 0.542,
+      "IC95% acc.": "[0.51, 0.57]",
+      "Precisão": 0.5421686746987951,
+      "Recall": 0.54,
+      "F1 (dup.)": 0.5410821643286573,
+      "AUC": 0.574612,
+      "AP": 0.5779007186261708,
+      "Aponta p/ original certa": 0.27
+    },
+    {
+      "Sistema": "Embeddings (semântico)",
+      "Limiar": 0.818,
+      "VP": 227,
+      "VN": 401,
+      "FP": 99,
+      "FN": 273,
+      "Acurácia": 0.628,
+      "IC95% acc.": "[0.60, 0.66]",
+      "Precisão": 0.696319018404908,
+      "Recall": 0.454,
+      "F1 (dup.)": 0.549636803874092,
+      "AUC": 0.7087080000000001,
+      "AP": 0.7096363826544643,
+      "Aponta p/ original certa": 0.292
+    },
+    {
+      "Sistema": "Híbrido linear (sem LLM)",
+      "Limiar": 0.492,
+      "VP": 188,
+      "VN": 424,
+      "FP": 76,
+      "FN": 312,
+      "Acurácia": 0.612,
+      "IC95% acc.": "[0.58, 0.64]",
+      "Precisão": 0.7121212121212122,
+      "Recall": 0.376,
+      "F1 (dup.)": 0.49214659685863876,
+      "AUC": 0.6664920000000001,
+      "AP": 0.673614393655456,
+      "Aponta p/ original certa": 0.268
+    }
+  ],
+  "relatorio_classificacao_llm": {
+    "Não duplicada": {
+      "precision": 0.6756756756756757,
+      "recall": 0.8,
+      "f1-score": 0.7326007326007326,
+      "support": 500.0
+    },
+    "Duplicada": {
+      "precision": 0.7549019607843137,
+      "recall": 0.616,
+      "f1-score": 0.6784140969162996,
+      "support": 500.0
+    },
+    "accuracy": 0.708,
+    "macro avg": {
+      "precision": 0.7152888182299947,
+      "recall": 0.708,
+      "f1-score": 0.7055074147585161,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.7152888182299946,
+      "recall": 0.708,
+      "f1-score": 0.705507414758516,
+      "support": 1000.0
+    }
+  },
+  "recall_at_k_recuperacao": {
+    "bm25": 0.508,
+    "denso": 0.63,
+    "hibrido_rrf": 0.634
+  },
+  "deteccao_llm_por_local_da_original": {
+    "base": {
+      "detectadas": 172,
+      "total": 250
+    },
+    "teste": {
+      "detectadas": 136,
+      "total": 250
+    }
+  },
+  "tempo_simulacao_min": 51.63
+}

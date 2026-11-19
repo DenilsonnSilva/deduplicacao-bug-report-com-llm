@@ -1,0 +1,293 @@
+id,title,y_true,pred,score,duplicate_of,true_master,orig_local,tipo
+1726,Submit form keyboard shortcut doesnt work,0,1,0.9999998807907104,7081.0,1726,-,FP
+2743,Canvas is three pixels too wide for viewport; causing scroll bar problems,0,1,0.6926419734954834,86837.0,2743,-,FP
+8322,Buttons have odd underline that extends outside button border,0,1,0.9433475732803345,7058.0,8322,-,FP
+9100,[bidi] Text direction ignored (dir; BDO; &lrm; and &rlm;),0,1,1.0,101339.0,9100,-,FP
+12513,HTMLSelectElement.options.selectedIndex not supported,0,1,1.0,108673.0,12513,-,FP
+13350,DOM needs to police JS infinite loops; schedule garbage collection,0,1,0.999998927116394,218608.0,13350,-,FP
+15420,HTML form controls,0,1,0.999868631362915,424873.0,15420,-,FP
+17654,Mozilla crashes on long menus,0,1,1.0,11081.0,17654,-,FP
+22713,Doesnt render entire page,0,1,0.9997965693473816,25836.0,22713,-,FP
+23998,Only <style>..</style> accessible via document.styleSheets,0,1,0.9999998807907104,896472.0,23998,-,FP
+28270,lose selection after Bold/Italic/Underline,0,1,0.9990600943565369,46520.0,28270,-,FP
+42313,Unable to scroll with mousewheel over objects contained in IFRAMEs,0,1,0.999995231628418,79285.0,42313,-,FP
+42788,crash in il_BACat in timer callback,0,1,0.9999251365661621,158186.0,42788,-,FP
+43825,<row> or <column> outside <grid> can crash mozilla,0,1,0.7662936449050903,682649.0,43825,-,FP
+44623,JS should implement String.prototype.localeCompare,0,1,0.9966233968734741,421219.0,44623,-,FP
+46817,Regression -- <tabcontrol> xul element no longer displays,0,1,0.996292769908905,33212.0,46817,-,FP
+49273,Buttons do not visibly depress on mousedown,0,1,0.999976396560669,30911.0,49273,-,FP
+51662,UMR in normalize_forward,0,1,0.9999996423721313,102613.0,51662,-,FP
+53281,Tables do not render correctly causing cell data overflow (overlap),0,1,1.0,47614.0,53281,-,FP
+60844,N601 Crash (Linux) #7: Mozilla crashes when using plugger from redhat. [@ nsPluginTag::nsPluginTag],0,1,0.9924227595329285,116735.0,60844,-,FP
+61663,thead element only prints on first and last pages,0,1,1.0,153785.0,61663,-,FP
+62085,cannot open secure site,0,1,1.0,64104.0,62085,-,FP
+62929,psm charset detector should tolerate char \0,0,1,0.9999885559082031,128531.0,62929,-,FP
+64049,Enourmous IFRAMEs cause freeze,0,1,0.9999982118606567,98158.0,64049,-,FP
+66940,file cache misses on page reload when cache hit expected,0,1,0.9981897473335266,73029.0,66940,-,FP
+74124,Mac does not render Hebrew correctly,0,1,0.5,60546.0,74124,-,FP
+79929,IMG tags with a space in the src= path are not loaded,0,1,1.0,133536.0,79929,-,FP
+81245,type-unsafe macro call bug in jsinterp.c; breaks ^ & | >> << ops,0,1,0.9999833106994629,9967.0,81245,-,FP
+81728,crash after clicking on link in an Image Map - Trunk [@ NS_MakeAbsoluteURI][@ gklayout!nsQueryReferent::operator=],0,1,1.0,54665.0,81728,-,FP
+83336,Crash trying to view contents of local directory file:///c|\,0,1,0.6584175229072571,143346.0,83336,-,FP
+93905,CSS overflow:scroll and overflow:hidden fails,0,1,0.9999996423721313,30975.0,93905,-,FP
+99224,document.lastModified should be localized,0,1,0.9916841983795166,599802.0,99224,-,FP
+100552,[FLOATER]left-floated table spills over right-floated table,0,1,1.0,47614.0,100552,-,FP
+106250,Cant login to Yahoo Mail,0,1,0.9998601675033569,122058.0,106250,-,FP
+107405,No input from keyboard,0,1,1.0,119171.0,107405,-,FP
+107518,M17rc1 xul Scrollbar within scrollbox causes crash [@ nsViewManager::UpdateView ][@ nsView::GetDimensions],0,1,0.9999833106994629,151826.0,107518,-,FP
+110497,ZWNJ and ZWJ ignored in Arabic context,0,1,1.0,94613.0,110497,-,FP
+112097,problem with about:plugins,0,1,0.9999996423721313,84500.0,112097,-,FP
+115720,Proxy: migrated (network.proxy.type; 3) fails to connect,0,1,1.0,200441.0,115720,-,FP
+122675,socket transport doesnt cancel properly if busy resolving or connecting,0,1,0.9989677667617798,781754.0,122675,-,FP
+128496,Manager: Scroll bar (Stored Cookies & Cookie Sites) is partially covered in Classic skin,0,1,0.9930961728096008,228001.0,128496,-,FP
+135497,Download-links not working on click,0,1,0.9999998807907104,116497.0,135497,-,FP
+137902,Crash on changing scale in print preview,0,1,0.9997219443321228,154805.0,137902,-,FP
+149389,N70PR1 crash [@ InMemoryDataSource::Assert ],0,1,0.8558511734008789,146529.0,149389,-,FP
+149461,browser dumps core on startup (Solaris 8 x86),0,1,0.9999994039535522,15604.0,149461,-,FP
+156764,Interface hangs after clicking onto a tooltip,0,1,0.9999997615814209,283942.0,156764,-,FP
+158782,Mozilla exhibits a lag in displaying typed text,0,1,1.0,162349.0,158782,-,FP
+163941,nsLocalFileWin.cpps nsLocalFile::ResolvePath code for .lnk has been broken since rev 1.70 by dougt [1/7/02],0,1,1.0,194357.0,163941,-,FP
+164211,Mozilla is unusable on 8-bit displays on Solaris,0,1,0.9924227595329285,25126.0,164211,-,FP
+167992,Mail composition has significant editing problems,0,1,0.9999998807907104,97309.0,167992,-,FP
+168487,Hidden field values are not always propagated correctly.,0,1,0.9999434947967529,219664.0,168487,-,FP
+168629,Mozilla incorrectly prompts about submitting to an insecure location from a secure one with base href=https://...,0,1,1.0,157841.0,168629,-,FP
+168988,HTTP should reject URLs that lack a hostname.,0,1,0.9999938011169434,89118.0,168988,-,FP
+170283,Sourcecode in viewer is shown as uncommented but shown in browser as commented,0,1,0.6297746300697327,186537.0,170283,-,FP
+179896,Form elements jump to new locations; resize themselves; and do not behave properly,0,1,0.9763104915618896,139953.0,179896,-,FP
+200076,Conn:  default browser or external link Unable to connect to ....,0,1,0.8354835510253906,160932.0,200076,-,FP
+200951,Will not print any pics on page,0,1,0.9999994039535522,188971.0,200951,-,FP
+213005,ASSERTION: OnDataAvailable implementation consumed no data,0,1,0.9937100410461426,227976.0,213005,-,FP
+219456,proxy browsing broken on todays cvs 20030917,0,1,0.9637799859046936,82566.0,219456,-,FP
+220095,Navigator->Languages for Web Pages empty; wrong character coding,0,1,0.9990302324295044,113482.0,220095,-,FP
+232506,Accept: Add XUL support,0,1,1.0,229579.0,232506,-,FP
+241647,Composer hangs temporarily on loading pictures if being offline without offline status set,0,1,0.9449946880340576,206345.0,241647,-,FP
+247068,[FIXr]fieldset border should be drawn in legends margin,0,1,0.9999998807907104,255650.0,247068,-,FP
+256436,Browser gets confused about page and box height/position (dropdown menu/html select affected),0,1,0.7122321724891663,204923.0,256436,-,FP
+292247,[FIX]XUL overlays violate BindToTree/UnbindFromTree invariants,0,1,0.999992847442627,284330.0,292247,-,FP
+298619,should consider using exif orientation flag when displaying JPEG images,0,1,0.8397339582443237,196161.0,298619,-,FP
+312415,Selected images (from a selection of the document to print) are black,0,1,0.9999932050704956,311726.0,312415,-,FP
+336414,print preview shrink to fit page incorrect,0,1,0.9997765421867371,195809.0,336414,-,FP
+364315,Speculatively load referenced files while real parsing is blocked on a <script src=> load,0,1,0.8633915781974792,225708.0,364315,-,FP
+380631,Mozilla browser crashes when trying to print website [@ nsTableCellMap::GetCellInfoAt],0,1,0.999995231628418,220638.0,380631,-,FP
+384431,Zimbra Webmail Client no longer renders correctly,0,1,0.9978172779083252,762131.0,384431,-,FP
+399756,Table rendering problem,0,1,0.9046505093574524,377805.0,399756,-,FP
+411585,mozillazine.org site does not print correctly (columns missing),0,1,0.9648551344871521,372280.0,411585,-,FP
+433469,Slow scroll speed at Wordpress.com with large pages; WindowServer high CPU usage.,0,1,0.793105959892273,81804.0,433469,-,FP
+439722,Make the bad cert error dialog more helpful,0,1,0.9553191661834717,352209.0,439722,-,FP
+454942,TM: After enabling the new JIT support and browsing an ext.js based site; Firefox 3.1 crashes [@ nanojit::LIns::isop],0,1,1.0,462096.0,454942,-,FP
+493754,Missed opportunity for flat closure; within funarg,0,1,0.9997695088386536,617835.0,493754,-,FP
+569044,e10s HTTP: handle requests with no responseHead,0,1,0.999992847442627,103757.0,569044,-,FP
+595743,Crash [@ jsd_FunctionCallHook ]  [@ XUL@0xba0d49 ] with Firebug or Venkman open; [@ jsd_Lock ],0,1,0.9999998807907104,768726.0,595743,-,FP
+596988,Crash [@ js_ConcatStrings],0,1,1.0,597886.0,596988,-,FP
+619064,Crash/Nullptr dereference: js::DefaultValue,0,1,0.9968273043632507,343455.0,619064,-,FP
+625266,Disable clipping to border-radius for elements with non-visible overflow,0,1,0.9997219443321228,575252.0,625266,-,FP
+626691,Log In To My T-Mobile flash text is mispositioned; when loading My T-Mobile page in background tab (on Linux/Windows without accelerated layers),0,1,0.9999827146530151,462670.0,626691,-,FP
+712341,dump in workers doesnt appear in adb,0,1,0.9995827078819275,728986.0,712341,-,FP
+720119,float:right / float:left deos not regard the elements-height ; which leads to bug with height of backgrondimage in FF; not in IE,0,1,0.5156199336051941,437230.0,720119,-,FP
+734978,JS OOM Testing: Assertion failure: cx->typeInferenceEnabled() && hasLazyType(); at js/src/jsinfer.cpp:5695,0,1,0.6791787147521973,686620.0,734978,-,FP
+761274,Linux <audio> broken; corrupted (and <video> b/c of audio) regression,0,1,0.9998205304145813,779392.0,761274,-,FP
+764289,Crash with __lookupGetter__; empty proxy,0,1,0.8902942538261414,714663.0,764289,-,FP
+766817,websockets causing repeated auth prompts?,0,1,0.9999501705169678,379573.0,766817,-,FP
+779455,Geolocation service never returns on the device,0,1,0.9999978542327881,596481.0,779455,-,FP
+787742,pdfjs no longer works,0,1,0.9969245791435242,816000.0,787742,-,FP
+787899,multipart/x-mixed-replace doesnt recover from bad frames,0,1,0.9978172779083252,542096.0,787899,-,FP
+797695,GC: more ad hoc exact rooting,0,1,0.9999985694885254,828607.0,797695,-,FP
+821046,Intermittent browser_dbg_chrome-debugging.js | application crashed [@ js::Debugger::removeAllDebuggees(JSContext *;unsigned int;JS::Value *)],0,1,0.9886682629585266,931052.0,821046,-,FP
+829421,ArgumentObjects memory leak,0,1,1.0,812423.0,829421,-,FP
+844112,GC: Fix misc build and test failures in exactly rooted shell,0,1,0.999993085861206,828607.0,844112,-,FP
+887753,Server not found after reconnecting to etherpad,0,1,0.9999985694885254,470274.0,887753,-,FP
+935491,crash in EnterBaseline,0,1,0.9998644590377808,947773.0,935491,-,FP
+938107,Hang at shutdown since Firefox25,0,1,1.0,452184.0,938107,-,FP
+945280,GenerationalGC: Assertion failure: position_ == start(); at ../gc/Nursery.cpp:80,0,1,0.9740425944328308,945275.0,945280,-,FP
+1015,navigator.mimeTypes not implemented,1,0,2.037748458860733e-07,,661,teste,FN
+2871,SPAN moved outside of H1,1,0,7.254361844388768e-05,,2825,base,FN
+4273,OnChange is not being fired in Select lists,1,0,4.539786823443137e-05,,3322,teste,FN
+5062,[PP]Apprunner crash on Win 95; Win NT and Win 98.,1,0,6.825602838489431e-08,,4703,base,FN
+6928,[BLOCKING WALLET] Deleting items in a SELECT list doesnt work,1,0,2.64657362691878e-09,,3187,teste,FN
+7647,frames not reflected as frameset properties,1,0,0.014957086183130741,,1839,base,FN
+9984,M8: Cant Scroll while page is loading,1,0,1.221907587023452e-05,,8308,teste,FN
+10172,profile manager Start button should migrate if required,1,0,7.889262633398175e-06,,10171,teste,FN
+16711,Possible extra release of JPEG decoder,1,0,0.015424552373588085,,16639,base,FN
+16949,URL causes extreme slowdown,1,0,0.011687257327139378,,15758,teste,FN
+18582,[PP] Win32 - Click on submenu header goes to home page instead,1,0,2.3624189410265117e-11,,13334,base,FN
+21495,Can not use Choose File to insert images in Composer,1,0,0.000503335555549711,,20359,teste,FN
+22154,Demo #12 More fixed Pos doesnt work,1,0,0.2018132209777832,,22107,teste,FN
+22602,URL link display fails within <SPAN> tag,1,0,1.463778534147031e-12,,21186,base,FN
+22620,[RFE] Available skin matching OS System UI colours,1,0,1.004526017922558e-09,,1021,teste,FN
+25169,<iframe> target to _top loading in iFrame,1,0,1.6028110394472606e-06,,22864,teste,FN
+26198,Splash Page Renders Left Justified Instead of Centered,1,0,5.144220995134674e-05,,1802,base,FN
+29209,The table which should be beside the index table is shifted below it,1,0,7.042270766532965e-08,,24101,base,FN
+29960,Incorrectly assigning page space to frames,1,0,1.2606946256710216e-05,,29749,teste,FN
+32052,Weird stuff happens with a table inside a table.,1,0,2.061153470123145e-09,,31644,base,FN
+32414,chrome not sticking to browser when new windows are opened.,1,0,9.146313151298102e-10,,31867,teste,FN
+32645,Cache Dir - Profile Manager,1,0,0.17781086266040802,,19184,base,FN
+33584,Mozilla is loading Plugins from Communicator folder,1,0,4.745044912546348e-10,,23856,teste,FN
+35947,EditorSelectBackColor crash (table background color),1,0,0.08756384253501892,,35100,base,FN
+36040,JavaScript alert hangs,1,0,3.024195939360652e-05,,35284,base,FN
+39071,Plugins dont get launched when clicked on hyperlinks with file extensions,1,0,0.03622005507349968,,35351,base,FN
+44624,JS should implement String.prototype.toLocaleLowerCase and toLocaleUpperCase,1,0,1.81622237960255e-06,,44623,teste,FN
+44785,Mozilla corrupts files in disk cache,1,0,0.20689405500888824,,38244,base,FN
+46835,cookie manager window only shows ok and cancel buttons,1,0,6.814872176619247e-05,,46817,teste,FN
+49715,cannot add text/elements *after* a table.,1,0,1.0907282188554746e-07,,34356,teste,FN
+50248,window tiling: New Browser appears off screen,1,0,4.508755348242577e-12,,49802,teste,FN
+51127,Web page not loading completely,1,0,9.042454962582269e-08,,48382,base,FN
+56882,NS6: no scrollbar when viewing indiv. search engine results after performing aggregate search,1,0,1.1843138054246083e-05,,55334,base,FN
+57160,font size in choosebar,1,0,0.0029810327105224133,,54691,base,FN
+58174,static ctor for nsLocalFileCommons gConverter causes Boehm GC to crash,1,0,1.591785378637564e-13,,43591,teste,FN
+61172,Mozilla core dumps when go to the above site,1,0,0.0003920417802873999,,59494,teste,FN
+61842,Performance degradation: HTML parsing of comments/scripts,1,0,0.0001442598586436361,,56624,teste,FN
+64626,Line doesnt break on soft-hyphenated words ( ),1,0,0.46879062056541443,,9101,teste,FN
+64930,GIF image print quality is not readable for humans or scanners,1,0,1.5893911187170318e-10,,64460,teste,FN
+66963,meta: MNG bugs,1,0,1.5534977819697815e-06,,18574,base,FN
+69388,View Page Source to Normal mode locks up Paragraph Style pull-down menu,1,0,9.736200734522527e-10,,68138,base,FN
+70281,crash in nsPluginTag::nsPluginTag(),1,0,0.00011235327838221565,,60844,teste,FN
+72145,Some HTML pages load indefinitely - moz transfer widget indication incorrect,1,0,0.0017546144081279635,,53956,teste,FN
+72329,Overlapping strings in rendered postscript,1,0,4.683888619183563e-05,,6082,teste,FN
+73219,A download function within URL wont commit... downloading a csv file...,1,0,0.0120537793263793,,68321,base,FN
+75539,Select Element in <font> does not appear,1,0,1.6536895373064908e-06,,69785,teste,FN
+76870,crash on appending element in the event handler of a mutation event,1,0,0.08756384253501892,,77271,base,FN
+78760,crash when printing in succession.,1,0,3.31756540641881e-13,,84537,base,FN
+82278,Scaled image rendering is slow,1,0,2.312550151373216e-10,,121015,base,FN
+82741,CSS text-align: center does not center HTML table,1,0,2.940077348245751e-11,,18217,base,FN
+84166,Mozilla will near freeze while this page loads,1,0,0.16026602685451508,,54542,teste,FN
+85137,image then use height= width= in table become invisible,1,0,2.0816914414467647e-08,,86600,base,FN
+86223,crash when using search in mail/news in layout,1,0,4.94445062670934e-09,,83906,base,FN
+88114,Need UI for a Plug-In Manager (no backend yet),1,0,3.658985614496402e-11,,144263,base,FN
+88957,Dead Code,1,0,2.2897348947448215e-11,,63025,teste,FN
+89387,Crash with back button,1,0,1.914287395266001e-07,,88343,base,FN
+91697,Hitting enter key should dismiss dialogs/alerts,1,0,1.933358362293802e-06,,63728,base,FN
+94696,Theme install window is broken.,1,0,6.348800152267131e-09,,93558,base,FN
+100190,Crash on Ants JUnitTestReports,1,0,5.04347383412096e-07,,95465,base,FN
+104224,my postings appear duplicated (within the same post),1,0,2.3624189410265117e-11,,100162,teste,FN
+106065,Cant invoke QuickTime Plug-In via <object>,1,0,1.0571699249339872e-07,,46569,base,FN
+106593,text and textarea values not displayed when value set by javascript,1,0,0.28776782751083374,,74383,base,FN
+108332,scrollbars #4 overflow:scroll for iframe has no effect,1,0,2.4579935598012526e-07,,93905,teste,FN
+108665,js onClick at image for changing <br> does work only after resize,1,0,1.104918023395185e-12,,69518,teste,FN
+111239,Text in form are not correct with CSS,1,0,5.144220995134674e-05,,109808,base,FN
+112006,Confirmation dialog as a security level.,1,0,1.5870000424911268e-07,,103405,teste,FN
+112690,Mozilla does not honor byteorder marker of UTF-16/UCS-2 charsets.,1,0,2.3525059396171943e-13,,68738,base,FN
+114085,Need command line switch to designate new profile directory,1,0,1.1744099026600452e-09,,24954,teste,FN
+114196,Menubar; logo and url bar turn black on load of URL,1,0,0.3849121630191803,,64049,teste,FN
+119204,Local Java plugin ignored,1,0,9.132548370871518e-07,,45699,base,FN
+122382,Tinderbox popups dont draw background and borders correctly,1,0,8.059445804065035e-07,,122325,teste,FN
+128949,repeated questioning by Mozilla on how to handle .asx,1,0,1.0218821231908204e-12,,93173,base,FN
+133953,request error with empty POST form,1,0,3.219233258278109e-05,,129333,base,FN
+136224,resource shortage (font metrics?) caused crash [@HRuleFrame::Reflow],1,0,9.329492911547277e-08,,136248,base,FN
+138156,ppembed crashes on 7100/66 if i try to load another page [Nubus],1,0,9.329492911547277e-08,,125411,base,FN
+138363,runtime (plugins.refresh( ))scan of the Win32 registry for PLID installations,1,0,1.3420013601717073e-05,,44973,base,FN
+147371,submit button moves when you click on it,1,0,9.530678468649967e-09,,151230,base,FN
+148510,Background US map GIF renders as black image,1,0,0.19682618975639343,,101018,teste,FN
+149190,createCaption() is preventing the HTML from showing up,1,0,0.1919327825307846,,119786,base,FN
+150849,Doesnt display huge CSS font,1,0,3.6534821390432626e-08,,150339,teste,FN
+151491,local file:// links are opened on middle-click,1,0,3.2154948191934207e-13,,148418,teste,FN
+151523,crash on startup -- backtrace included,1,0,1.0261880234452292e-10,,147333,base,FN
+155284,Proxy: Every time I try to load a URL; it cannot do a lookup!,1,0,2.2827996872365475e-05,,11708,base,FN
+155959,input:before { content: ...; } causes submission problems for text inputs,1,0,0.005554925184696913,,155957,teste,FN
+157943,Crashing accessing <object> tests on mozilla site,1,0,3.3596785442568944e-07,,156936,teste,FN
+161046,Error in the javascript of checking phone number,1,0,1.4783639590287834e-11,,140852,base,FN
+162085,Moz 1.1+ improperly renders like Netscape 4.x,1,0,0.001987774157896638,,150556,base,FN
+162616,Java not closing properly,1,0,7.349268971168499e-10,,162526,teste,FN
+162865,download manager adds undesired .ps extension to existing *.eps filename,1,0,0.1919327825307846,,144923,base,FN
+163865,Select ALL on web page does not highlight images.,1,0,1.315669351242832e-07,,14835,base,FN
+164871,lots of .pngs bloats X server,1,0,0.000552778656128794,,51028,base,FN
+166249,Printing sometimes causes computer to restart,1,0,8.953243479936646e-09,,168385,base,FN
+169141,TLS-Error Code -12226 attempting to connect to bcoba-server.bigpond.net.au,1,0,1.3574330637311505e-07,,167227,base,FN
+173062,Immediate crash loading http://geocities.com/moz_blubber [@ nsView::ConvertFromParentCoords ][@ nsView::GetClippedRect],1,0,1.7983067834848043e-07,,171334,teste,FN
+180670,Characters in the middle of strings are sometimes displayed in a much smaller font,1,0,0.0010649627074599266,,180667,teste,FN
+181008,Put up unknown protocol alert correctly,1,0,0.2120688259601593,,86486,base,FN
+181069,Clicking on a tooltip causes keyboard lockout,1,0,0.0017546144081279635,,156764,teste,FN
+183380,positioned <object>s backgrounds get painted over contents,1,0,0.32082128524780273,,180502,teste,FN
+188566,cookie prompt sheet always displays on current window,1,0,7.901209464478143e-09,,173844,base,FN
+192303,popup menu in wrong place,1,0,2.561282371971174e-06,,185107,teste,FN
+195267,need to issue remove links twice to remove link,1,0,2.865939256746497e-12,,193716,teste,FN
+199111,submit button doesnt work,1,0,0.32766830921173096,,192170,base,FN
+210003,possible cache management problem,1,0,6.814872176619247e-05,,198806,base,FN
+219144,get plug-in dialog text shouldnt be hard coded,1,0,2.973846483737136e-13,,143456,teste,FN
+219642,javascript disabled in preferences but still activated,1,0,1.29177994256241e-12,,219456,teste,FN
+221794,Uncaught exception; when using surroundContents with a portion of a TextOnly Document!,1,0,5.051074003503686e-10,,135928,teste,FN
+228514,Text not wrapped in alert and confirm dialogs in Javascript,1,0,1.917171560394948e-10,,40508,base,FN
+235340,submit button appears as plain text and form is not submittable,1,0,9.329492911547277e-08,,235171,base,FN
+238838,Attempted CTRL+A (Select All) on this specific XML page causes a not responding message.,1,0,1.199735311097072e-10,,234913,base,FN
+247536,vertical-align top and bottom align element instead of its attached subtree,1,0,4.146174029107108e-11,,118501,teste,FN
+256590,Links tend to pop page upwards if more than halfway down,1,0,4.006369272246957e-05,,256436,teste,FN
+270497,getters/setters for attributes in JS components return NS_ERROR_FAILURE in xpcshell,1,0,2.5147816121173783e-11,,239969,teste,FN
+289273,Vertical Scrollbar has disapeared (regression),1,0,6.286163811708434e-10,,289248,teste,FN
+291323,German character &szlig; can not be rendered using small-caps font,1,0,0.4073334038257599,,291321,teste,FN
+293844,ASSERTION: Already have a document.  Unbind first!: !GetCurrentDoc(); file r:/mozilla/content/base/src/nsGenericDOMDataNode.cpp,1,0,1.5558403454463132e-09,,292247,teste,FN
+294013,strange issue with drag & drop URL,1,0,6.41206057139243e-08,,289513,base,FN
+294617,xsl-stylesheet not loaded when href is remote URI,1,0,0.013636835850775242,,236328,teste,FN
+336249,Firefox hangs on a website with a large number of nested and absolutely positioned <div>s,1,0,3.1971862223673098e-12,,317561,teste,FN
+336987,crash [@ nsScrollSelectionIntoViewEvent::HandlePLEvent] mTypedSelection Pointer dereferenced before NULL check,1,0,0.0012065897462889552,,326273,teste,FN
+340045,Loose close timer causes crash with content area context menu,1,0,6.092758519926633e-10,,246712,teste,FN
+346759,Crash [@ mozInlineSpellChecker::SkipSpellCheckForNode] when dragdropping text in textarea and textarea gets display: none,1,0,2.940077348245751e-11,,344560,teste,FN
+348525,embedded objects with protocol handle mms:// are ignored,1,0,1.1979305725162703e-07,,346167,base,FN
+367319,Remove dead HTTP servers from netwerk/,1,0,9.436649239802364e-10,,103430,teste,FN
+367362,Unicode characters in <title> tag cause rendering issues in current tab title,1,0,3.8949701103296874e-11,,347011,teste,FN
+373054,[pango] missing characters invisibly dropped,1,0,2.9356554520632017e-08,,372629,teste,FN
+374591,User prompted for PIN for PKCS#11 token with CKF_PROTECTED_AUTHENTICATION_PATH support,1,0,1.6187581422855146e-05,,119500,base,FN
+377891,Extra a11y cache invalidations when user selects new combobox option,1,0,1.3750925311611928e-12,,371394,teste,FN
+388179,Monospace font isnt quite; with pango,1,0,3.8891112552619234e-08,,385510,teste,FN
+391841,Menu close events no longer fired,1,0,3.2986755688080294e-12,,390589,base,FN
+395869,Overflow when using scale and translate transforms in SVG,1,0,6.893610589031596e-07,,315383,teste,FN
+406563,Svg linear gradient disappears if url contains the hash character (#),1,0,2.1633244241120453e-12,,345544,base,FN
+413926,Painting SVG Radial Gradients slow on Windows Trunk,1,0,1.933358362293802e-06,,332413,teste,FN
+429080,Crash [@ RuleHash_ClassTable_GetKey] with DOMi manipulating hidden menubar,1,0,1.5404905129301483e-10,,343508,teste,FN
+434411,The title popups should dismiss when the mouse is moved.,1,0,0.39981165528297424,,312852,teste,FN
+444229,Necessary to force quit Firefox after The document cannot change while Printing or in Print Preview error,1,0,0.17328819632530212,,436473,teste,FN
+453376,Update caps for bug 453373,1,0,4.599055858367507e-10,,451731,teste,FN
+457005,layout/base/tests/test_bug396024.html leaks,1,0,4.018609750522373e-11,,433132,teste,FN
+459440,TM: jit calls to remaining Date constructors,1,0,3.7592943081393715e-13,,487134,base,FN
+463136,Cleanup for objdir builds after srcdir builds doesnt work,1,0,9.625642150012936e-08,,461309,teste,FN
+483081,Firefox 3.1b3 fails to compile with --enable-default-toolkit=cairo-qt,1,0,1.18789873770897e-11,,480689,teste,FN
+495650,Multiple compile errors with cairo-qpainter-surface in Qt port: starting with _cairo_traps_extract_region(),1,0,1.9697292841930336e-12,,493726,teste,FN
+496477,upvar: nested flat closures,1,0,0.002251847181469202,,493754,teste,FN
+513387,ES5: Object.defineProperties,1,0,2.1444948288262822e-05,,430133,teste,FN
+527380,Read Access Violation starting at js3250!NativeToValueBase<FailDoubleOOMHandler>+0x00000000000000e5 (Hash=0x6e2e3a1b.0x73572f0b),1,0,0.06954174488782883,,522024,teste,FN
+527758,New startup crash [@ nsThreadManager::Init()] in 3.5.5,1,0,9.343548157403347e-11,,526586,teste,FN
+529632,Video wont play in 3.5.5,1,0,4.05865202557365e-10,,520500,teste,FN
+558358,TM: Assertion failure: v_ins->isF64(); at ../jstracer.cpp or (64-bit) Assertion failed: LIR type error (start of writer pipeline): arg 1 of ul2uq is immq which has type int64 (expected int32): 0 (../nanojit/LIR.cpp,1,0,2.93115390377352e-05,,558249,teste,FN
+558694,intermittent crash? running layout/reftests/ib-split/insert-into-split-inline-16a.html,1,0,4.400118632474914e-05,,543736,teste,FN
+570704,[E10S] Fennec+electrolysis crashes when it tries to access non-responding port,1,0,9.695347823190925e-12,,569044,teste,FN
+570936,Build option --disable-javaxpcom is not parsed ok in configure.in,1,0,1.4615768595405143e-09,,570440,teste,FN
+573180,[OOPP] Special Java code calls the getObject hook on PluginScriptableObjectParent when it shouldnt,1,0,1.5870000424911268e-07,,563891,base,FN
+590741,TM: mozJSComponentLoader needs its own compartment,1,0,6.758261950068345e-09,,590346,teste,FN
+595837,crash [@ jsd_Lock ],1,0,1.0799672267580718e-08,,595743,teste,FN
+599640,TM: faster PurgeScriptFragments,1,0,1.8982568988912263e-11,,584860,teste,FN
+603532,LayerManagerD3D10.cpp fails to compile with --with-windows-version=502,1,0,8.083752309033521e-13,,601358,teste,FN
+604612,[Regression] 10/13 to 10/14 . Tuenti.com doesnt finish loading because nsresult: 0x80530009 (NS_ERROR_DOM_NOT_SUPPORTED_ERR),1,0,0.0006462032906711102,,601803,teste,FN
+604658,Weird WebGL crash related to non-UTF-8 strings on windows (?!?!),1,0,0.00026947917649522424,,598838,teste,FN
+612890,crash [@ JSC::X86Assembler::linkJump ],1,0,9.251364431472897e-12,,602333,base,FN
+622962,Crash [@ mozilla::layers::ImageLayerD3D10::RenderLayer ] [@ atidxx32.dll@0xfbfa ][@ atidxx32.dll@0xfb5a ][@ atidxx32.dll@0x9269 ][@ atidxx32.dll@0x929e ][@ atidxx32.dll@0xe84f ][@ atidxx32.dll@0x3a6cb ][@ atidxx32.dll@0xe6bf ][@ atidxx32.dll@0x3b28b ],1,0,1.386705417161238e-08,,612103,base,FN
+631776,Assertion failure: script->main <= target && target < script->code + script->length; with xpcshell,1,0,0.05184546485543251,,621432,teste,FN
+635158,Misplaced flash object after changing page zoom level,1,0,6.625566761897517e-11,,626691,teste,FN
+647278,win64 is failing to compile since March. 30th,1,0,2.3859586528729437e-10,,646704,teste,FN
+667579,Add command line flag USE_DFLT_MAKE=1 for interactive use,1,0,5.780647960307306e-09,,643167,teste,FN
+683632,CSS3 Animations do not operate if nested in Media queries,1,0,0.0002611903182696551,,511909,base,FN
+684167,Some sites crash with HTTPS everywhere @ eff.org plugin,1,0,1.2501528701136522e-09,,677643,base,FN
+735847,Since Firefox 11 website boston.com/bigpicture causes Not Responding/Unresponsive script warnings and chromehangs,1,0,1.7429786680622783e-07,,734019,teste,FN
+740083,Have an annotation for converting Function? in IDL to some sort of interface on the C++ side,1,0,6.014152313582599e-05,,779048,base,FN
+747957,No scroll-bar in pre elements with one line and style=overflow: auto; padding: 0;,1,0,5.594337835646002e-06,,726258,teste,FN
+751750,Implement a mechanism for a privileged domain (app) to pre-cache files for manifest from another domain (app),1,0,7.276761831986889e-11,,702369,teste,FN
+751751,Support intermittently polling for appcache updates,1,0,9.314593626186252e-05,,744715,teste,FN
+759411,Mac build fails: non-constant-expression cannot be narrowed,1,0,1.7087563586315468e-09,,755869,teste,FN
+764783,Crash [@ readBarrier] with Proxy,1,0,9.721546803120873e-07,,764289,teste,FN
+785997,IonMonkey: Immediate crash on startup in jsanalyze.h:633,1,0,1.3007129382458515e-05,,783008,teste,FN
+789797,HTML5: Audio crackles on HTML5 player audio/video,1,0,0.00016346470511052758,,788005,base,FN
+793621,The proxy box shows itself in a never ending loop with serverfault.com,1,0,0.3073579967021942,,766817,teste,FN
+800946,Windows build failures on tryserver dont provide useful error messages,1,0,2.0408183476483543e-10,,799189,teste,FN
+825037,Crash  [@ _VEC_memcpy | mozilla::gfx::CopyDataToCairoSurface ],1,0,7.4224986157389594e-09,,803568,teste,FN
+827107,application cache does not work,1,0,1.9750534363538463e-07,,715809,base,FN
+832377,CPU-intensive script freezes or even crashes Firefox,1,0,2.061153470123145e-09,,516518,base,FN
+832687,cant update a hosted+appcache app,1,0,2.93115390377352e-05,,829763,teste,FN
+842000,Firefox with built in PDF viewer wont open PDFs from computers own hard drive,1,0,3.0334058181979984e-11,,787742,teste,FN
+843496,[Progress Events] ProgressEvent.length returns undefined.,1,0,2.7577929273547852e-08,,776864,base,FN
+853803,javascript bug in aurora,1,0,9.436649239802364e-10,,841882,teste,FN
+855946,[Per App Network Traffic Metering] Collect per app traffic in HTTP protocol layer,1,0,0.1225232183933258,,746073,teste,FN
+856444,crash while loading lots of images (GeForceGLDriver),1,0,0.01590639166533947,,855221,base,FN
+859438,mach needs improvement handling when source/objdir test paths dont match,1,0,7.91311200593059e-12,,847279,teste,FN
+890009,SVG without explicit size doesnt scale in response to full zoom,1,0,3.124988978697729e-08,,885939,base,FN
+891458,crash in libskia.so@0x10affe,1,0,7.194132845000922e-09,,890590,teste,FN
+892104,Build race condition,1,0,8.777450988262103e-11,,850380,base,FN
+896052,missing check for isFloatAddress in MoveEmitterARM::toOperand,1,0,0.044680867344141006,,890271,teste,FN
+926589,[B2G][Contacts[Export] Black screen appears when tapping the previously imported contact from SIM from a search result on the export page,1,0,7.746073227288264e-11,,923303,teste,FN
+935675,Crash (100% repro) in nightly sending Yahoo e-mail from the browser client,1,0,2.3090713341389346e-07,,935491,teste,FN
