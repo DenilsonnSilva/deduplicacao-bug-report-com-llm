@@ -99,7 +99,7 @@ Colunas adicionadas à amostra: `is_duplicate`, `master_id`, `split` (`base` ou 
 4. Execute as células em ordem. Com `SALVAR_NO_DRIVE = True` o notebook monta o Google Drive (pede autorização na primeira vez).
 5. Cada execução grava seus arquivos em `execucoes/<data_hora>/` dentro da pasta de saída. O cache do juiz fica na raiz da pasta de saída e é reaproveitado entre execuções.
 
-Para reproduzir a execução reportada, use os valores da seção 5. O tempo da simulação com o teste de 1.000 issues foi de aproximadamente **51,6 minutos**.
+A configuração padrão de `N_BASE` e `N_EVAL` são, respectivamente, 1.000 e 100 issues. Para reproduzir a execução reportada, use os valores da seção 5. O tempo da simulação com o teste de 1.000 issues foi de aproximadamente **51,6 minutos**.
 
 Se o Drive estiver desligado, a saída vai para `/content/saida`, que é apagada ao fim da sessão do Colab.
 
@@ -244,10 +244,6 @@ Na execução com base de 1.000 e teste de 100 as diferenças entre sistemas nã
 - Várias sementes e calibração com mais issues.
 - Fixar a base e variar só o teste (e o contrário) para separar os efeitos do tamanho.
 
-## Trabalho relacionado
-
-GPTrace (Herter et al., ICSE 2026), que deduplica crash reports com embeddings de LLM.
-
 ## Licença e uso dos dados
 
-Defina aqui a licença do código e informe a origem e os termos de uso do dataset do Mozilla Core.
+MIT License
