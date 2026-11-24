@@ -25,10 +25,11 @@ O repositório reúne o notebook, o dataset original, a amostra usada e os resul
 
 ```
 .
-├── README.md
 ├── pipeline_dedup_bug_reports.ipynb      # notebook completo (amostragem, pipeline e avaliação)
+├── README.md
+├── LICENSE
 ├── dados/
-│   └── mozilla_core.csv                  # dataset original completo (Mozilla Core)
+│   └── mozilla_core.zip                  # dataset original completo (Mozilla Core)
 └── resultados/
     └── 10k/
         ├── amostra_1100.csv              # amostra usada na execução (base + teste, ver nota abaixo)
@@ -94,7 +95,7 @@ Colunas adicionadas à amostra: `is_duplicate`, `master_id`, `split` (`base` ou 
 ## 4. Como executar
 
 1. Abra `pipeline_dedup_bug_reports.ipynb` no Google Colab e selecione uma GPU (T4 gratuita é suficiente).
-2. Obtenha `dados/mozilla_core.csv` do repositório e coloque-o em `/content`, ou na pasta do Drive configurada (`MyDrive/dedup_bugs`), ou envie o arquivo quando o notebook pedir. Com a mesma semente e a mesma configuração, o notebook gera uma amostra equivalente à de `resultados/10k/amostra_1100.csv`.
+2. Obtenha `dados/mozilla_core.zip` do repositório, extraia-o e coloque o arquivo `mozilla_core.csv` em `/content` no Colab, ou na pasta do Drive configurada (`MyDrive/dedup_bugs`), ou envie o arquivo quando o notebook pedir. Com a mesma semente e a mesma configuração, o notebook gera uma amostra equivalente à de `resultados/10k/amostra_1100.csv`.
 3. Ajuste a seção de configuração, se quiser: `N_BASE`, `N_EVAL`, `FRAC_ORIG_TESTE`, `TOP_K`, `SEED` e `SALVAR_NO_DRIVE`.
 4. Execute as células em ordem. Com `SALVAR_NO_DRIVE = True` o notebook monta o Google Drive (pede autorização na primeira vez).
 5. Cada execução grava seus arquivos em `execucoes/<data_hora>/` dentro da pasta de saída. O cache do juiz fica na raiz da pasta de saída e é reaproveitado entre execuções.
